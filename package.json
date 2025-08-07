@@ -17,11 +17,12 @@
     "typescript": "^5.9.2"
   },
   "scripts": {
-    "dev": "npx tsx watch server.ts"
+    "dev": "npx tsx watch server.ts",
+     "start": "node ./dist/server.js"
   },
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+   "main": "./dist/server.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
